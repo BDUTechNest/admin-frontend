@@ -2,7 +2,7 @@
 
 
 ## Development
-To start bulding follow these steps:
+To start building follow these steps:
 1. Clone this repo.
 2. The project uses pnpm to handle package management. Run the following command to install dependencies:
 ```bash
@@ -15,6 +15,6 @@ pnpm dev
 
 
 ## Contribution
-1. Make sure you are using prettier to format the code.
+1. Make sure you are using Prettier to format the code.
 
-More guidelines will be added as project move forward.
+More guidelines will be added as the project moves forward.
