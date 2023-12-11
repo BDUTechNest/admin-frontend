@@ -1,10 +1,8 @@
-"use-client";
-
 import SignUpForm from "@/components/auth/sign-up-form";
 
 export default function SignUp() {
   return (
-    <div className="container max-w-[1440px] grid grid-cols-12 px-5 md:px-8 gap-8 min-h-screen mx-auto">
+    <div className="container max-w-[1440px] border-[1px]   grid grid-cols-12 px-5 md:px-8 gap-8 min-h-screen mx-auto">
       <SignUpForm></SignUpForm>
     </div>
   );
