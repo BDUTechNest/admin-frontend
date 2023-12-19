@@ -19,8 +19,9 @@ export default function SignUpForm() {
         Sign Up
       </h1>
 
-      <div className="space-y-[22px] mb-[95px]">
-        <div className="grid w-full max-w-sm items-center gap-1.5">
+      <div >
+        <form className="space-y-[22px] mb-[95px]">
+          <div className="grid w-full max-w-sm items-center gap-1.5">
           <Label htmlFor="email" className="mb-[6px]">
             Email
           </Label>
@@ -78,6 +79,7 @@ export default function SignUpForm() {
             Accept terms and conditions
           </label>
         </div>
+        </form>
       </div>
 
       <Button className="w-full bg-green-500 hover:bg-green-400">Button</Button>
