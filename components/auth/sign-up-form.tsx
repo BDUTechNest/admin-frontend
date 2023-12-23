@@ -14,13 +14,13 @@ import { Checkbox } from "../ui/checkbox";
 import { Button } from "../ui/button";
 export default function SignUpForm() {
   return (
-    <div className="bg-white  h-[70%] cols-start py-5 px-6 col-end-7 self-center rounded-sm shadow-md col-span-4 max-w-[446px]">
+    <div className="bg-white  min-h-[70%] py-5 px-6 !col-end-7 self-center rounded-sm shadow-md col-span-5 lg:col-span-4 max-w-[446px]">
       <h1 className="text-center font-bold text-[30px] text-green-500 ">
         Sign Up
       </h1>
 
       <div >
-        <form className="space-y-[22px] mb-[95px]">
+        <form className="space-y-[22px] md:mb-8 lg:mb-[95px]">
           <div className="grid w-full max-w-sm items-center gap-1.5">
           <Label htmlFor="email" className="mb-[6px]">
             Email
